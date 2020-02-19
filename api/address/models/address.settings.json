@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "addresses",
+  "info": {
+    "name": "Address"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "address1": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "richtext",
+      "maxLength": 6
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "address": {
+      "model": "address"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

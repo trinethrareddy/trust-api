@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "components_trinethra_trinethras",
+  "info": {
+    "name": "trinethra",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "datetime",
+      "private": false
+    },
+    "age": {
+      "type": "integer"
+    }
+  }
+}

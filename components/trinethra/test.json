@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_trinethra_tests",
+  "info": {
+    "name": "test",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "n": {
+      "type": "boolean"
+    }
+  }
+}
